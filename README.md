@@ -1,2 +1,6 @@
 # Aquarium Driller
-Aquarium Driller is a hardware-assisted virtualization, instrumentation-driven, fuzzer. It was designed to be used from a Linux Kernel Module running in the guest OS, attempting to crash the host.
+Aquarium Driller is an elementary fuzzing framework to target hardware-assisted virtual machines.
+
+- **Elementary Framework**: Provides primitives to generate basic types and data structures.
+- **Simple Integration**: Designed to instrument kernel modules, enabling the development of flexible and custom test harnesses.
+- **Guest-to-Host Testing**: Allows test execution in the guest OS to uncover crashes or vulnerabilities in the host environment.
